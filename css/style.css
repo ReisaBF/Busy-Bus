@@ -7,56 +7,59 @@ body {
 }
 
 .container {
-  width: 600px;
+  width: 375px;
   background-color: #fff;
+}
+
+#top {
+  background-image: url("../images/iPhone Top.png");
+  background-color: #cccccc;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 ul {
  display: inline;
- width: 600px;
+ width: 375px;
  padding: 10px;
  display: inline-block;
  text-align: center;
 }
 
 li {
-  font-size: 18px;
+  font-size: 15px;
   font-family: sans-serif;
-  font-weight: lighter;
 }
 
 .alignleft {
 	float: left;
-  margin-left: -5px;
+  margin-left: -8px;
 }
 
 .alignright {
 	float: right;
   margin-top: -17px;
-  padding-right: 15px;
+  padding-right: 8px;
 }
 
 .aligncenter {
-  margin-right: 28px;
+  margin-right: 85px;
 }
 
 div {
-  background-color: #808080;
-  border: 1px solid #000000;
+  background-color: #000000;
+  border: 1px solid #ffffff;
 }
 
 #navdirection {
-  padding: 10px;
-  border: 1px solid #000000;
-  font-size: 22px;
+  padding: 8px;
+  border: 1px solid #ffffff;
   font-family: sans-serif;
-  color: white;
-  font-weight: normal;
 }
 
 #navcontainer {
   padding: 10px;
-  color: black;
+  color: white;
 }
 
 #navlayout {
@@ -65,5 +68,23 @@ div {
 }
 
 #navlist {
-  font-weight: bold;
+  font-weight: lighter;
+}
+
+#green {
+  padding-right: 50px;
+  color: lawngreen;
+  font-size: 18px;
+}
+
+#yellow {
+  padding-right: 50px;
+  color: yellow;
+  font-size: 18px;
+}
+
+#red {
+  padding-right: 50px;
+  color: red;
+  font-size: 18px;
 }
