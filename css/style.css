@@ -2,8 +2,25 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: white;
+.statusbar {
+  background-image: url("../images/Status Bar.png");
+  background-color: #cccccc;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.map {
+  background-image: url("../images/Map.png");
+  background-color: #cccccc;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.buslist {
+  border-radius: 15px 15px 0 0;
+  margin-top: 100px;
+  background-color: black;
+  color: white;
 }
 
 .container {
@@ -11,80 +28,25 @@ body {
   background-color: #fff;
 }
 
-#top {
-  background-image: url("../images/iPhone Top.png");
-  background-color: #cccccc;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-ul {
- display: inline;
- width: 375px;
- padding: 10px;
- display: inline-block;
- text-align: center;
-}
-
 li {
-  font-size: 15px;
-  font-family: sans-serif;
-}
-
-.alignleft {
-	float: left;
-  margin-left: -8px;
-}
-
-.alignright {
-	float: right;
-  margin-top: -17px;
-  padding-right: 8px;
-}
-
-.aligncenter {
-  margin-right: 85px;
-}
-
-div {
-  background-color: #000000;
-  border: 1px solid #ffffff;
-}
-
-#navdirection {
-  padding: 8px;
-  border: 1px solid #ffffff;
-  font-family: sans-serif;
-}
-
-#navcontainer {
   padding: 10px;
-  color: white;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-#navlayout {
-  font-weight: lighter;
-  color: white;
+h3 {
+  border-bottom: 375px;
 }
 
-#navlist {
-  font-weight: lighter;
+.busline{
+  float: left;
 }
 
-#green {
-  padding-right: 50px;
-  color: lawngreen;
-  font-size: 18px;
+.destination {
+  text-align: center;
 }
 
-#yellow {
-  padding-right: 50px;
-  color: yellow;
-  font-size: 18px;
-}
-
-#red {
-  padding-right: 50px;
-  color: red;
-  font-size: 18px;
+.frequency {
+  float: right;
 }

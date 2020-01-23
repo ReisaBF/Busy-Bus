@@ -8,144 +8,82 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <section class="container">
 
-        <div id="top">
-         <h1>top</h1>
-       </div>
+   <section class="container">
 
-        <div id="navdirection">
-        <ul id="green">Eastbound</ul>
-        </div>
+      <div class="statusbar"></div>
+      <main>
+      <div class="map"></div>
+        <div class="buslist">
+          <h1>Washington/State Station</h1>
+          <h2>Bus Station 0.8mi</h2>
+          <button>Directions<br>6 min drive</button>
 
-        <div id="navcontainer">
-        <ul id="navlayout">
-        <li class="alignleft">LINE</li>
-        <li class="aligncenter">DESTINATION</li>
-        <li class="alignright">FREQUENCY</li>
-        </ul>
-        </div>
+          <h3>Eastbound</h3>
 
-        <div id="navcontainer">
-        <ul id="navlist">
-        <li class="alignleft">60</li>
-        <li class="aligncenter">Randolph/Harbor Dr</li>
-        <li class="alignright">Every 20 minutes</li>
-        </ul>
-        </div>
+          <ul class="row">
+            <li class="busline">60</li>
+            <li class="destination">Randolph/Harbor Dr</li>
+            <li class="frequency">4:20pm<br>Every 20 mins</li>
+          </ul>
 
-        <div id="navcontainer">
-        <ul id="navlist">
-        <li class="alignleft">124</li>
-        <li class="aligncenter">Navy Pier</li>
-        <li class="alignright">Every 10 minutes</li>
-        </ul>
-        </div>
+          <ul class="row">
+            <li class="busline">124</li>
+            <li class="destination">Navy Pier</li>
+            <li class="frequency">4:10pm<br>Every 10 mins</li>
+          </ul>
 
-        <div id="navdirection">
-        <ul id="green">Northbound</ul>
-        </div>
+          <h3>Northbound</h3>
 
-        <div id="navcontainer">
-        <ul id="navlayout">
-        <li class="alignleft">LINE</li>
-        <li class="aligncenter">DESTINATION</li>
-        <li class="alignright">FREQUENCY</li>
-        </ul>
-        </div>
+          <ul class="row">
+            <li class="busline">151</li>
+            <li class="destination">Devon/Clark</li>
+            <li class="frequency">4:16pm<br>Every 16 mins</li>
+          </ul>
 
-        <div id="navcontainer">
-        <ul id="navlist">
-        <li class="alignleft">151</li>
-        <li class="aligncenter">Devon/Clark</li>
-        <li class="alignright">Every 16 minutes</li>
-        </ul>
-        </div>
+          <h3>Southbound</h3>
 
-        <div id="navdirection">
-        <ul id="green">Southbound</ul>
-        </div>
+          <ul class="row">
+            <li class="busline">J14</li>
+            <li class="destination">103rd/Stony Island</li>
+            <li class="frequency">4:15pm<br>Every 15 mins</li>
+          </ul>
 
-        <div id="navcontainer">
-        <ul id="navlayout">
-        <li class="alignleft">LINE</li>
-        <li class="aligncenter">DESTINATION</li>
-        <li class="alignright">FREQUENCY</li>
-        </ul>
-        </div>
+          <ul class="row">
+            <li class="busline">124</li>
+            <li class="destination">Navy Pier</li>
+            <li class="frequency">4:10pm<br>Every 10 mins</li>
+          </ul>
 
-        <div id="navcontainer">
-        <ul id="navlist">
-        <li class="alignleft">J14</li>
-        <li class="aligncenter">103rd/Stony Island</li>
-        <li class="alignright">Every 15 minutes</li>
-        </ul>
-        </div>
+          <h3>Reroute</h3>
 
-        <div id="navcontainer">
-        <ul id="navlist">
-        <li class="alignleft">124</li>
-        <li class="aligncenter">Navy Pier</li>
-        <li class="alignright">Every 10 minutes</li>
-        </ul>
-        </div>
+          <ul class="row">
+            <li class="busline">6X</li>
+            <li class="destination">Jackson Park Express</li>
+            <li class="frequency">N/A</li>
+          </ul>
 
-        <div id="navdirection">
-        <ul id="yellow">Reroute</ul>
-        </div>
+          <h3>Out of Service</h3>
 
-        <div id="navcontainer">
-        <ul id="navlayout">
-        <li class="alignleft">LINE</li>
-        <li class="aligncenter">DESTINATION</li>
-        <li class="alignright">FREQUENCY</li>
-        </ul>
-        </div>
+          <ul class="row">
+            <li class="busline">4</li>
+            <li class="destination">Cottage Grove</li>
+            <li class="frequency">Resumes 12:10am</li>
+          </ul>
 
-        <div id="navcontainer">
-        <ul id="navlist">
-        <li class="alignleft">6x</li>
-        <li class="aligncenter">Jackson Park Express</li>
-        <li class="alignright">N/A</li>
-        </ul>
-        </div>
+          <ul class="row">
+            <li class="busline">20</li>
+            <li class="destination">Madison</li>
+            <li class="frequency">Resumes 12:10am</li>
+          </ul>
 
-        <div id="navdirection">
-        <ul id="red">Out Of Service</ul>
-        </div>
+          <ul class="row">
+            <li class="busline">157</li>
+            <li class="destination">Streeterville/Taylor</li>
+            <li class="frequency">Resumes 6:00am</li>
+          </ul>
 
-        <div id="navcontainer">
-        <ul id="navlayout">
-        <li class="alignleft">LINE</li>
-        <li class="aligncenter">DESTINATION</li>
-        <li class="alignright">FREQUENCY</li>
-        </ul>
-        </div>
-
-        <div id="navcontainer">
-        <ul id="navlist">
-        <li class="alignleft">4</li>
-        <li class="aligncenter">Cottage Grove</li>
-        <li class="alignright">Resumes 12:10am</li>
-        </ul>
-        </div>
-
-        <div id="navcontainer">
-        <ul id="navlist">
-        <li class="alignleft">20</li>
-        <li class="aligncenter">Madison</li>
-        <li class="alignright">Resumes 12:10am</li>
-        </ul>
-        </div>
-
-        <div id="navcontainer">
-        <ul id="navlist">
-        <li class="alignleft">157</li>
-        <li class="aligncenter">Streeterville/Taylor</li>
-        <li class="alignright">Resumes 6:00am</li>
-        </ul>
-        </div>
-
-    </section>
+      </main>
+   </section>
   </body>
 </html>
