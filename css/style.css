@@ -3,10 +3,24 @@
 }
 
 .statusbar {
-  background-image: url("../images/Status Bar.png");
+  background-image: url("../images/Status-Bar.png");
   background-color: #cccccc;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 18px;
+}
+
+button {
+  background-color: #0000FF;
+  border: none;
+  color: #f8f8ff;
+  padding: 5px 100px 5px 100px;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  margin-left: 45px;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 .map {
@@ -14,11 +28,12 @@
   background-color: #cccccc;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 375px;
 }
 
 .buslist {
   border-radius: 15px 15px 0 0;
-  margin-top: 100px;
+  margin-top: -250px;
   background-color: black;
   color: white;
 }
@@ -31,22 +46,67 @@
 li {
   padding: 10px;
   display: inline-block;
-  padding-left: 15px;
-  padding-right: 15px;
+}
+
+h1 {
+  padding: 10px 0 5px 10px;
+}
+
+h2 {
+  padding: 0 0 10px 10px;
 }
 
 h3 {
   border-bottom: 375px;
+  padding: 5px 10px 5px 10px;
+  border-bottom: solid 1px;
+  font-size: 13px;
+}
+
+.timethere {
+  font-size: 13px;
+  color: #f8f8ff;
+}
+
+.time {
+  float: right;
+  font-size: 13px;
+  color: green;
+}
+
+.newtime {
+  float: right;
+  font-size: 13px;
+  color: red;
+}
+
+
+.row {
+  text-align: center;
+  font-family: arial;
+  color: #f8f8ff;
 }
 
 .busline{
   float: left;
+  font-size: 18px;
+  border: solid 1px grey;
+  border-radius: 5px;
+  background-color: grey;
+  margin-left: 8px;
+  margin-top: 8px;
+  padding: 3px 5px 3px 5px;
 }
 
 .destination {
-  text-align: center;
+  font-size: 17px;
 }
 
 .frequency {
   float: right;
+  padding: inherit;
+  margin-right: 10px;
+  margin-top: 15px;
+  font-size: 18px;
+  text-align: right;
 }
