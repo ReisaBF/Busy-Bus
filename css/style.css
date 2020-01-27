@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
 .statusbar {
   background-image: url("../images/Status-Bar.png");
   background-color: #cccccc;
@@ -11,15 +15,14 @@
 }
 
 button {
-  background-color: #0000FF;
+  background-color: #1026FF;
   border: none;
   color: #f8f8ff;
-  padding: 5px 100px 5px 100px;
+  padding: 5px 125px 5px 125px;
   display: inline-block;
   font-size: 16px;
   text-align: center;
-  margin-left: 45px;
-  margin-bottom: 10px;
+  margin-left: 25px;
   border-radius: 5px;
 }
 
@@ -34,6 +37,7 @@ button {
 .buslist {
   border-radius: 15px 15px 0 0;
   margin-top: -250px;
+  padding-bottom: 10px;
   background-color: black;
   color: white;
 }
@@ -50,17 +54,19 @@ li {
 
 h1 {
   padding: 10px 0 5px 10px;
+  font-size: 36px;
 }
 
 h2 {
-  padding: 0 0 10px 10px;
+  padding: 0 0 15px 10px;
+  font-size: 20px;
 }
 
 h3 {
   border-bottom: 375px;
-  padding: 5px 10px 5px 10px;
+  padding: 15px 10px 5px 7px;
   border-bottom: solid 1px;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .timethere {
@@ -71,42 +77,53 @@ h3 {
 .time {
   float: right;
   font-size: 13px;
-  color: green;
+  color: #00FF0A;
 }
 
 .newtime {
   float: right;
   font-size: 13px;
-  color: red;
+  color: #FF0000;
 }
 
+.natime {
+  float: right;
+  font-size: 13px;
+  color: #FF0000;
+  margin-top: -35px;
+}
 
 .row {
   text-align: center;
   font-family: arial;
   color: #f8f8ff;
+  margin-top: 3px;
 }
 
 .busline{
+  margin-bottom: -40px;
   float: left;
-  font-size: 18px;
-  border: solid 1px grey;
+  font-size: 20px;
+  border: solid 1px #6A6A6A;
   border-radius: 5px;
-  background-color: grey;
+  background-color: #6A6A6A;
   margin-left: 8px;
-  margin-top: 8px;
+  margin-top: 15px;
   padding: 3px 5px 3px 5px;
+  width: 50px;
 }
 
 .destination {
-  font-size: 17px;
+  font-size: 19px;
+  width: 100%;
+  margin-top: 8px;
 }
 
 .frequency {
   float: right;
   padding: inherit;
-  margin-right: 10px;
-  margin-top: 15px;
+  margin-right: 7px;
+  margin-top: -35px;
   font-size: 18px;
   text-align: right;
 }
